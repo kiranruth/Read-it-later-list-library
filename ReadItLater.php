@@ -82,7 +82,7 @@ class ReadItLater{
 				curl_setopt($ch, CURLOPT_URL, $link);
 				curl_setopt($ch,CURLOPT_RETURNTRANSFER,true);
 				curl_setopt($ch, CURLOPT_FAILONERROR, true);
-				// the below check need to be there for production .to make sure we are point to correct atom server !!!
+				// the below check need to be there for production .to make sure we are point to correct atomic server !!!
 				curl_setopt ($ch, CURLOPT_SSL_VERIFYHOST, false);
 				curl_setopt ($ch, CURLOPT_SSL_VERIFYPEER, false);
 				curl_setopt($ch, CURLOPT_POST, 1);
